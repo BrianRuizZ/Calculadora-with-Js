@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+<body class="bg-fondo grid grid-cols-7 grid-rows-3">
+    <div class="p-3 bg-color-calculadora col-span-3 col-start-3 row-span-2 row-start-2 rounded justify-center ">
+    <input type="text" class="text-xl text-center bg-grey-600 p-2 border-[2px] border-black rounded mb-2 grid w-full pantalla text-lg text-bold"></input>
+    <div class="teclas grid gap-1 grid-cols-3 grid-rows-8 col-start-4 row-start-2">
+        <button onclick="clearAll()" class="bg-red-700 text-white py-2 px-4 rounded">ON</button>
+        <button onclick="borrar()" class="bg-red-500 text-white py-2 px-4 rounded">CE</button>
+        <button onclick="equal()" class="button= bg-blue-600 text-white py-2 px-4 rounded">=</button>
+        <button onclick="agregarNumero(9)" class="button9 bg-blue-500 text-white py-2 px-4 rounded">9</button>
+        <button onclick="agregarNumero(8)" class="button8 bg-blue-500 text-white py-2 px-4 rounded">8</button>
+        <button onclick="agregarNumero(7)" class="button7 bg-blue-500 text-white py-2 px-4 rounded">7</button>
+        <button onclick="agregarNumero(6)" class="button6 bg-blue-500 text-white py-2 px-4 rounded">6</button>
+        <button onclick="agregarNumero(5)" class="button5 bg-blue-500 text-white py-2 px-4 rounded">5</button>
+        <button onclick="agregarNumero(4)" class="button4 bg-blue-500 text-white py-2 px-4 rounded">4</button>
+        <button onclick="agregarNumero(3)" class="button3 bg-blue-500 text-white py-2 px-4 rounded">3</button>
+        <button onclick="agregarNumero(2)" class="button2 bg-blue-500 text-white py-2 px-4 rounded">2</button>
+        <button onclick="agregarNumero(1)" class="button1 bg-blue-500 text-white py-2 px-4 rounded">1</button>
+        <button onclick="agregarNumero(0)" class="button0 bg-blue-500 text-white py-2 px-4 rounded">0</button>
+        <button onclick="agregarOperador('-')" class="button0- bg-blue-500 text-white py-2 px-4 rounded">-</button>
+        <button onclick="agregarOperador('+')" class="button+ bg-blue-500 text-white py-2 px-4 rounded">+</button>
+        <button onclick="agregarOperador('*')" class="buttonx bg-blue-500 text-white py-2 px-4 rounded">X</button>
+        <button onclick="agregarOperador('/')" class="buttonx bg-blue-500 text-white py-2 px-4 rounded">/</button>
+    </div>
+    </div>
+    <script src="node_modules/mathjs/lib/browser/math.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
