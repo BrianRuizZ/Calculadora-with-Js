@@ -34,6 +34,7 @@ function equal() {
     }
     catch(e) {
         console.error(e);
+        alert("Error al buscar math.js, si aun deseas ver como funciona descarga el codigo que esta en https://github.com/BrianRuizZ/Calculadora-with-Js")
     }
 }
 
