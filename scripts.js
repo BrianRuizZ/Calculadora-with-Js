@@ -1,3 +1,4 @@
+
 let pantalla = document.querySelector('.pantalla');
 
 document.addEventListener('keydown', (e)=> {
